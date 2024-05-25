@@ -6,7 +6,7 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
     kit: {
 		paths: {
-			base: '//sveltekit-gh-pages',
+			base: '/sveltekit-gh-pages',
 		},
 		adapter: adapter({
 			fallback: '404.html',
