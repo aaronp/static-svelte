@@ -41,9 +41,9 @@ jobs:
   deploy:
     needs: build_site
     runs-on: ubuntu-latest
-
     permissions:
       pages: write
+      contents: write
       id-token: write
 
     environment:
